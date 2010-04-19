@@ -1,0 +1,114 @@
+keymaps 0-2,4,8,12,64,128
+
+#row 1
+keycode 2=	one	exclam	exclam
+  ctrll keycode 2=			Console_1
+keycode 3=	two	at	at
+  ctrll keycode 3=			Console_2
+keycode 4=	three	numbersign	numbersign
+  ctrll keycode 4=			Console_3
+keycode 5=	four	dollar	dollar
+  ctrll keycode 5=			Console_4
+keycode 6=	five	percent	percent
+  ctrll keycode 6=			Console_5
+keycode 7=	six	asciicircum	asciicircum
+  ctrll keycode 7=			Console_6
+keycode 8=	seven	ampersand	ampersand
+  ctrll keycode 8=			Console_7
+keycode 9=	eight	asterisk	asterisk
+  ctrll keycode 9=			Console_8
+keycode 10=	nine	parenleft	parenleft
+  ctrll keycode 10=			Console_9
+keycode 11=	zero	parenright	parenright
+  ctrll keycode 11=			Console_10
+
+#row 2
+keycode 16=	q
+  altgr keycode 16=		Tab
+keycode 17=	w
+  altgr keycode 17=		grave
+  ctrll keycode 17=			Up
+  ctrlr keycode 17=				Scroll_Backward
+  alt keycode 17=					PageUp
+keycode 18=	e
+  altgr keycode 18=		underscore
+keycode 19=	r
+keycode 20=	t
+keycode 21=	y
+  altgr keycode 21=		percent
+keycode 22=	u
+  altgr keycode 22=		asterisk
+keycode 23=	i
+  altgr keycode 23=		minus
+keycode 24=	o
+  altgr keycode 24=		plus
+keycode 25=	p
+  altgr keycode 25=		equal
+
+#row 3
+keycode 30=	a
+  ctrll keycode 30=			Left
+  alt keycode 30=					Home
+keycode 31=	s
+  altgr keycode 31=		bar
+  ctrll keycode 31=			Down
+  ctrlr keycode 31=				Scroll_Forward
+  alt keycode 31=					PageDown
+keycode 32=	d
+  altgr keycode 32=		backslash
+  ctrll keycode 32=			Right
+  alt keycode 32=					End
+keycode 33=	f
+  altgr keycode 33=		braceleft
+keycode 34=	g
+  altgr keycode 34=		braceright 
+keycode 35=	h
+  altgr keycode 35=		colon
+keycode 36=	j
+  altgr keycode 36=		semicolon
+keycode 37=	k
+  altgr keycode 37=		quotedbl
+keycode 38=	l
+  altgr keycode 38=		apostrophe
+keycode 14=	BackSpace	Delete
+
+#row 4
+keycode 59=	Caps_Lock
+keycode 44=	z
+keycode 45=	x
+keycode 46=	c
+keycode 47=	v
+  altgr keycode 47=		bracketleft
+keycode 48=	b
+  altgr keycode 48=		bracketright
+keycode 49=	n
+  altgr keycode 49=		less
+keycode 50=	m
+  altgr keycode 50=		greater
+keycode 51=	comma	question	question
+keycode 28=	Return
+
+#row 5
+keycode 42=	Shift
+keycode 56=	SAltGr
+keycode 127=	Control
+keycode 215=	at	tilde	tilde
+keycode 57=	space	space	space
+keycode 52=	period	slash	slash
+keycode 100=	SAltGr
+keycode 54=	Shift
+
+#menu (above trackball)
+keycode 139=	Alt
+
+#send
+keycode 231=	CtrlL
+
+#home
+keycode 102=	CtrlR
+
+#back
+keycode 158=	Escape
+
+#reboot = ctrl alt bksp
+control alt keycode 14 = Boot

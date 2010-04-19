@@ -1,0 +1,9 @@
+[PLATFORM_INFO]
+platform_name = Android;
+platform_hw = instinctq rev01;
+[COMPILE_INFO]
+compile_time = 2009-09-30 21:10:14;
+compiled_by  = ms925.kim;
+compile_host = stella;
+compiler_version = ;
+busybox_version = busybox;

@@ -1,0 +1,11 @@
+#!/system/bin/sh
+
+# load modules for fbcon
+# there is a bug in 2.6.27 where we can't compile these straight in
+for i in softcursor fbcon_ccw fbcon_cw fbcon_ud fbcon_rotate bitblit tileblit font fbcon;
+do
+	insmod /lib/modules/$i.ko;
+done;
+
+echo 1 > /sys/class/graphics/fbcon/rotate_all
+
